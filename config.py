@@ -44,7 +44,7 @@ class Settings(BaseSettings):
     groq_model_id: str = "llama-3.1-70b-versatile"
 
     # ── CORS ─────────────────────────────────────────
-    cors_origins: str = "https://nutri-ai-alpha-sepia.vercel.app/"
+    cors_origins: str = "https://nutri-ai-alpha-sepia.vercel.app"
 
     # ── ChromaDB ─────────────────────────────────────
     chroma_persist_path: str = "./chroma_db"
