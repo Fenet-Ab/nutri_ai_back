@@ -25,6 +25,9 @@ sentence-transformers==2.7.0
 # ── IBM watsonx.ai ────────────────────────────────────
 ibm-watsonx-ai==1.0.10
 
+# ── Groq LLM client ───────────────────────────────────
+groq
+
 # ── Testing ───────────────────────────────────────────
 pytest==8.2.0
 pytest-asyncio==0.23.6
