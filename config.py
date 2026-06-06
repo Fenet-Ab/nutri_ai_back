@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     secret_key: str = "change-me-in-production"
 
     # ── Database ─────────────────────────────────────
-    database_url: str = "postgresql://postgres:postgres@localhost:5432/nutriguide"
+    database_url: str = "postgresql://postgres:Fenet1995ab123@db.xggtcsoilzkscngvsbrv.supabase.co:5432/postgres"
 
     # ── JWT ──────────────────────────────────────────
     jwt_secret_key: str = "change-me-too"
@@ -29,22 +29,22 @@ class Settings(BaseSettings):
     # ── OAuth — Google ────────────────────────────────
     google_client_id: str = ""
     google_client_secret: str = ""
-    google_redirect_uri: str = "http://localhost:8002/auth/google/callback"
+    google_redirect_uri: str = "https://nutri-ai-back.onrender.com/auth/google/callback"
 
     # ── OAuth — Facebook ─────────────────────────────
     facebook_client_id: str = ""
     facebook_client_secret: str = ""
-    facebook_redirect_uri: str = "http://localhost:8002/auth/facebook/callback"
+    facebook_redirect_uri: str = "https://nutri-ai-back.onrender.com/auth/facebook/callback"
 
     # ── Frontend URL ─────────────────────────────────
-    frontend_url: str = "http://localhost:5173"
+    frontend_url: str = "https://nutri-ai-alpha-sepia.vercel.app"
 
     # ── Groq LLM ─────────────────────────────────────
     groq_api_key: str = ""
     groq_model_id: str = "llama-3.1-70b-versatile"
 
     # ── CORS ─────────────────────────────────────────
-    cors_origins: str = "http://localhost:3000,http://localhost:5173"
+    cors_origins: str = "http://localhost:3000,https://nutri-ai-alpha-sepia.vercel.app"
 
     # ── ChromaDB ─────────────────────────────────────
     chroma_persist_path: str = "./chroma_db"
