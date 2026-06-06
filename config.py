@@ -29,7 +29,7 @@ class Settings(BaseSettings):
     # ── OAuth — Google ────────────────────────────────
     google_client_id: str = ""
     google_client_secret: str = ""
-     google_redirect_uri: str = "https://nutri-ai-back.onrender.com/auth/google/callback"
+    google_redirect_uri: str = "https://nutri-ai-back.onrender.com/auth/google/callback"
 
     # ── OAuth — Facebook ─────────────────────────────
     facebook_client_id: str = ""
