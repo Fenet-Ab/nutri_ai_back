@@ -29,7 +29,7 @@ class Settings(BaseSettings):
     # ── OAuth — Google ────────────────────────────────
     google_client_id: str = ""
     google_client_secret: str = ""
-     google_redirect_uri: str = "http://localhost:8002/auth/google/callback"
+     google_redirect_uri: str = "https://nutri-ai-back.onrender.com/auth/google/callback"
 
     # ── OAuth — Facebook ─────────────────────────────
     facebook_client_id: str = ""
@@ -44,7 +44,7 @@ class Settings(BaseSettings):
     groq_model_id: str = "llama-3.1-70b-versatile"
 
     # ── CORS ─────────────────────────────────────────
-    cors_origins: str = "http://localhost:3000,https://nutri-ai-alpha-sepia.vercel.app"
+    cors_origins: str = "https://nutri-ai-alpha-sepia.vercel.app/"
 
     # ── ChromaDB ─────────────────────────────────────
     chroma_persist_path: str = "./chroma_db"
